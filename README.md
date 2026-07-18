@@ -4,8 +4,6 @@ A from-scratch recreation of **"Show, Attend and Tell: Neural Image Caption Gene
 
 This project is inspired by the original 2015 paper by Kelvin Xu, Jimmy Ba, Ryan Kiros, and others — a collaboration between the University of Toronto and Université de Montréal. It was one of the first papers to bring visual attention into image captioning, and it helped lay the groundwork for the attention mechanisms used in today's language models.
 
-Built as a university ML/DL project, with the goal of understanding the paper deeply enough to reproduce it from the ground up — not just run someone else's code.
-
 ---
 
 ## 📖 About the paper
