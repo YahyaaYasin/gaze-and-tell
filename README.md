@@ -6,7 +6,7 @@ This project is inspired by the original 2015 paper by Kelvin Xu, Jimmy Ba, Ryan
 
 ---
 
-## 📖 About the paper
+## About the paper
 
 - **Title:** Show, Attend and Tell: Neural Image Caption Generation with Visual Attention
 - **Authors:** Kelvin Xu, Jimmy Ba, Ryan Kiros, Kyunghyun Cho, Aaron Courville, Ruslan Salakhutdinov, Richard Zemel, Yoshua Bengio
@@ -15,7 +15,7 @@ This project is inspired by the original 2015 paper by Kelvin Xu, Jimmy Ba, Ryan
 
 The model combines a CNN (to understand the image) with an RNN (to generate the caption), plus an attention mechanism that lets the model focus on different regions of the image as it writes each word.
 
-## ✨ What this repo does
+## What this project does
 
 - Implements the encoder-decoder-with-attention architecture from scratch
 - Trains on the Flickr8k dataset
@@ -23,7 +23,7 @@ The model combines a CNN (to understand the image) with an RNN (to generate the 
 - Visualizes attention as a heatmap over the image for each generated word
 - Compares soft attention vs. hard attention (the two variants from the paper)
 
-## 🗂️ Project structure
+## Project structure (not confirmed)
 
 ```
 gaze-and-tell/
@@ -37,7 +37,7 @@ gaze-and-tell/
 └── README.md
 ```
 
-## ⚙️ Setup
+## Setup
 
 ```bash
 git clone https://github.com/<your-username>/gaze-and-tell.git
@@ -45,19 +45,19 @@ cd gaze-and-tell
 pip install -r requirements.txt
 ```
 
-## 📊 Dataset
+## Dataset
 
 This project uses the **Flickr8k** dataset (8,000 images, 5 captions each).
 
 Download instructions and preprocessing steps are in `data/README.md`.
 
-## 🚀 Training
+## Training
 
 ```bash
 python train.py --config configs/soft_attention.yaml
 ```
 
-## 🖼️ Results
+## Results
 
 | Model | BLEU-4 | Notes |
 |---|---|---|
@@ -68,13 +68,13 @@ Sample output:
 
 > *(caption + attention heatmap example goes here once training is done)*
 
-## 🔍 What's different from the original
+## What's different from the original
 
 - Implemented independently from the paper, using existing public implementations only as a reference for debugging, not as source code
 - Trained on a smaller scale (Flickr8k instead of MS COCO) to fit university project constraints
 - Added [your extra angle here — e.g. modern CNN backbone, extra ablations, failure case analysis]
 
-## 🙏 Acknowledgements
+## Acknowledgements and Credits
 
 Inspired by the original paper by Xu et al. (2015) and the University of Toronto / Vector Institute research community. This is an independent educational reproduction, not affiliated with the original authors.
 
