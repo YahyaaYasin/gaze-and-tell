@@ -11,7 +11,7 @@ This project is inspired by the original 2015 paper by Kelvin Xu, Jimmy Ba, Ryan
 - **Title:** Show, Attend and Tell: Neural Image Caption Generation with Visual Attention
 - **Authors:** Kelvin Xu, Jimmy Ba, Ryan Kiros, Kyunghyun Cho, Aaron Courville, Ruslan Salakhutdinov, Richard Zemel, Yoshua Bengio
 - **Year:** 2015
-- **Paper:** [arXiv:1502.03044](https://arxiv.org/abs/1502.03044)
+- **Paper:** [arXiv:1502.03044](https://proceedings.mlr.press/v37/xuc15.pdf)
 
 The model combines a CNN (to understand the image) with an RNN (to generate the caption), plus an attention mechanism that lets the model focus on different regions of the image as it writes each word.
 
